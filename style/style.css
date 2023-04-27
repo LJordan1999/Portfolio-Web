@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200;400;700;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Alexandria', sans-serif;
+}
+
+
+#inicio{
+    background: url(../img/foto1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+}
+
+
+#inicio .contenido header{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;   
+}
+
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px 20px;
+}
+
+
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: #F7C908
+}
+
+#inicio .contenido header .contenido-header .redes a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0px 40px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover{
+    color: #F7C908
+}
+
+#inicio .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    
+    
+}
+
+
+#inicio .presentacion h2{
+    text-shadow: black;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0 0 20px rgb(131, 131, 131);
+
+}
+#inicio .presentacion p{
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    
+}
+
+#inicio .presentacion .descripcion{
+    text-shadow: black;
+    font-size: 40px;
+    color: white;
+    font-weight: 350;
+    font-style: italic;
+    
+
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    height: 5vh;
+    background-color: rgb(0, 0, 0);
+}
+
+
+#footer .copy{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer .copy p{
+    color: white;
+    font-weight: 200;
+    
+}
+
+#sobremi{
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+}
+
+
+#sobremi .contenido header{
+    background-color: rgba(0, 0, 0, 0.8);
+    position:static;
+    width: 100%;
+    z-index: 100;
+    top: 0;   
+}
+
+#sobremi .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px 20px;
+}
+
+
+#sobremi .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+#sobremi .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+#sobremi .contenido header .contenido-header nav ul a:hover{
+    color: #F7C908
+}
+
+#sobremi .contenido header .contenido-header .redes a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0px 40px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#sobremi .contenido header .contenido-header .redes a:hover{
+    color: #F7C908
+}
+
+#sobremi .presentacion{
+    margin: 0px 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+    
+}
+
+
+#sobremi .presentacion h2{
+    align-items: center;
+    font-size: 90px;
+    color: black;
+
+}
+
+#sobremi .presentacion p{
+    font-size: 30px
+
+}
+
+.descargar-cv{
+    padding: 10px 20px;
+    background-color: #F7C908;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor:pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px #F7C908;
+    -moz-box-shadow: 1px 3px 11px -5px #F7C908;
+    box-shadow: 1px 3px 11px -5px #F7C908;
+}
+
+.descargar-cv:hover {
+    background-color: rgb(82, 82, 82);
+    box-shadow: none;
+}
+
+
+#sobremi .img-about{
+    border:  9px solid #F7C908;
+    margin: 0px 200px;
+    width: 65%;
+    z-index: 1;
+}
+
+#info-habilidades{
+    display: flex;
+    text-align: center;
+    margin: 10px 200px;
+}
+
+#info-habilidades h2{
+    font-size: 90px;
+}
+
+#info-habilidades p{
+    font-size: 30px
+}
+
+.bgb{
+    background-color: #fff;
+}
